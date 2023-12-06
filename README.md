@@ -19,9 +19,17 @@ Preview
 
 <img src="https://i.imgur.com/B13VwVw.png" width=400>
 
-* Upload [this](https://raw.githubusercontent.com/dest4590/arduino-lcd/main/sketch.ino) sketch
+> Nano
+
+<img src="https://i.imgur.com/hbKl7VE.png" width=400>
+
+> Uno
 
 ***
+
+Steps:
+
+* Upload [this](https://raw.githubusercontent.com/dest4590/arduino-lcd/main/sketch.ino) sketch
 
 * Open lcd.py file and enter com port at start
 
