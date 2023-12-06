@@ -49,4 +49,7 @@ class Temperature:
             if str(sensor.Hardware.HardwareType) == 'GpuNvidia' and not self.gpu_temp:
                 self.gpu_temp = sensor.Value
             
+            if str(sensor.Hardware.HardwareType) == 'GpuAti' and not self.gpu_temp:
+                self.gpu_temp = sensor.Value
+
             return [self.cpu_temp, self.gpu_temp]
