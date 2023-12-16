@@ -33,4 +33,4 @@ def static_text(top_text: str, bottom_text: str):
 
         time.sleep(1)
 
-static_text()
+static_text('Top Text', 'Bottom Text')
